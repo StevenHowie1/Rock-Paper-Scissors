@@ -15,16 +15,13 @@ body {
     padding: 1rem;
 }
 
-.rock {
-    max-height: 100%;
+.pick {
+    max-height: 150px;
     width: auto;
 }
 
 .scores {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    display: block;
     font-size: 1rem;
 }
 
@@ -39,4 +36,10 @@ body {
 .selection.winner {
     font-size: 2rem;
     opacity: 5;
+}
+
+.game {
+    margin: auto;
+    justify-content: center;
+    width: 700px;
 }
