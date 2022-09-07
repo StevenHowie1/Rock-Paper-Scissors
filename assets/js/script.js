@@ -5,17 +5,14 @@ const myscoreSpan = document.querySelector('[data-my-score]')
 const PICKS = [
     {
         name: 'rock',
-        // img: '',
         beats: 'scissors'
     },
     {
         name: 'paper',
-        // img: ,
         beats: 'rock'
     },
     {
         name: 'scissors',
-        // img: ,
         beats: 'paper'
     }
 ]
@@ -34,9 +31,6 @@ function makepick(pick) {
     const computerWinner = isWinner(computerpick, pick)
     console.log(computerpick)
 
-    // addSelectionResult(computerpick, computerWinner)
-    // addSelectionResult(pick, computerWinner)
-
     if (yourWinner) incrementScore(myscoreSpan)
     if (computerWinner) incrementScore(computerScoreSpan)
 }
@@ -44,14 +38,6 @@ function makepick(pick) {
 function incrementScore(scoreSpan) {
     scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1
 }
-
-// function addSelectionResult(pick, winner) {
-//     const div = document.createElement('div')
-//     div.innerText = pick.img
-//     div.classList.add('selection')
-//     if (winner) div.classList.add('winner')
-// select.after(div)
-// }
 
 function isWinner (pick, opponentpick) {
     return pick.beats === opponentpick.name

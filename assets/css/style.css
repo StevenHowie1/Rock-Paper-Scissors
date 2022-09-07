@@ -8,11 +8,16 @@ body {
 }
 
 .main-area {
-    display: flex;
+    display: inline-block;
     justify-content: center;
-    outline: none;
-    margin: 1rem;
-    padding: 1rem;
+    padding: 2rem;
+    margin: 50px auto;
+
+}
+
+img {
+   
+    width: 700px;
 }
 
 .pick {
@@ -20,26 +25,30 @@ body {
     width: auto;
 }
 
+
 .scores {
-    display: block;
+    display: grid;
     font-size: 1rem;
-}
-
-.player .computer {
-    font-size: 0.2rem;
-}
-
-.selection {
-    opacity: .5;
-}
-
-.selection.winner {
-    font-size: 2rem;
-    opacity: 5;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    padding: 1.5rem;
+    margin: 40px auto;
+    font-weight: bold;
+    font-family: prada;
+    font-size: 1.5rem;
+    border: 2px solid;
+    border-radius: 5px;
 }
 
 .game {
     margin: auto;
     justify-content: center;
     width: 700px;
+}
+
+#message {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
 }
