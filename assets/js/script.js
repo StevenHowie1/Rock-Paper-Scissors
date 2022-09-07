@@ -35,6 +35,11 @@ function makepick(pick) {
     if (computerWinner) incrementScore(computerScoreSpan)
 }
 
+function changetoMessage(name) {
+    if (name === "rock") return "Rock";
+    if (name === "paper") return "Paper";
+    if (name === "scissors") return "Scissors"
+}
 function incrementScore(scoreSpan) {
     scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1
 }
