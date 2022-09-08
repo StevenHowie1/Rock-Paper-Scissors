@@ -76,3 +76,41 @@ button {
     font-weight: bold;
     color: black;
 }
+
+@media screen and (max-width: 800px){
+    .main-area, .pick {
+        display: block;
+        width: 50%;
+        margin-right: 150px;
+        margin-bottom: 50px;
+        padding: 20px;
+
+    }
+
+    .scores {
+        margin-top: 100px;
+       
+    }
+
+    #message {
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    .pick {
+
+        display: block;
+        width: 50%;
+        margin-right: 325px;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+
+    .heading {
+        margin-bottom: -50px;
+        justify-content: center;
+
+    }
+}
