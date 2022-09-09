@@ -30,6 +30,10 @@ button {
     border-radius: 25px;
 }
 
+.pick:hover {
+    font-size: 100%;
+}
+
 
 .scores {
     display: grid;
