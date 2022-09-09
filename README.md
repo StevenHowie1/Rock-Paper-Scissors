@@ -104,7 +104,7 @@ This is what made it work (Thankfully).
 
 - On a mobile device, the images and header are a bit to the left instead of in the centre. The gaps are also different between the images. 
 
-## Delpoyment
+## Deployment
 
 ------
 
