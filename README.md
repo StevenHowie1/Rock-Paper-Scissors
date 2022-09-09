@@ -108,7 +108,7 @@ This is what made it work (Thankfully).
 
 ------
 
-This site was delopyed to GitHub pages - 
+This site was delopyed to GitHub pages but I've had an issue with this - 
 
 
 ## Credits 
