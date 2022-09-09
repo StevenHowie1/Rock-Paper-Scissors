@@ -36,13 +36,13 @@ You can see the rules of the game, underneath the scoring.
 ## Design
 
 - Colour Scheme
- - The three main colours are Black, Grey & White.
+ -- The three main colours are Black, Grey & White.
 
  - Typography
-  - The Prata font family is used for this website.
+  -- The Prata font family is used for this website.
 
   - Imagery 
-   - The three images used to play the game.
+   -- The three images used to play the game.
 
 ------
 
@@ -100,6 +100,6 @@ This is what made it work (Thankfully).
 
 ------
 
-## Bugs
+## Known Bugs
 
-- 
+- On a mobile device, the images and header are a bit to the left instead of in the centre. The gaps are also different between the images. 
