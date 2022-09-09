@@ -1,7 +1,7 @@
-const pickButtons = document.getElementsByClassName('pick')
-const select = document.querySelector('[data-select]')
-const computerScoreSpan = document.querySelector('[data-computer-score]')
-const myscoreSpan = document.querySelector('[data-my-score]')
+const pickButtons = document.getElementsByClassName('pick');
+const select = document.querySelector('[data-select]');
+const computerScoreSpan = document.querySelector('[data-computer-score]');
+const myscoreSpan = document.querySelector('[data-my-score]');
 const PICKS = [
     {
         name: 'rock',
